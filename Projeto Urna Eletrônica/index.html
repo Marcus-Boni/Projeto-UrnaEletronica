@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <title>Urna eletrônica</title>
+</head>
+
+<body>
+    <main>
+        <button class="btn">Nova Simulação</button>
+        <div class="urna">
+            <div class="tela">
+                <div class="d-1">
+                    <div class="d-1-left">
+                        <div class="d-1-1">
+                            <span>SEU VOTO PARA</span>
+                        </div>
+                        <div class="d-1-2">
+                            <span>Presidente</span>
+                        </div>
+                        <div class="d-1-3">
+                            Número:
+                            <div class="numero pisca"></div>
+                            <div class="numero"></div>
+                        </div>
+                        <div class="d-1-4">
+                            Nome: FULANO DE TAL<br>
+                            Partido: QQQ<br>
+                            Vice-Presidente: BELTRANO de tal
+                        </div>
+                    </div>
+                    <div class="d-1-right">
+                        <div class="d-1-image">
+                            <img src="assets/images/minions-6.png" alt="Minions">
+                            <p>Presidente</p>
+                        </div>
+                        <div class="d-1-image small">
+                            <img src="assets/images/minions-6.png" alt="Minions">
+                            <p>Vice-Presidente</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-2">
+                    Aperte a tecla:<br>
+                    CONFIRMA para CONFIRMAR este voto<br>
+                    CORRIGE para REINICIAR este voto
+                </div>
+            </div>
+            <div class="teclado">
+                <div class="logo">
+                    <img src="assets/images/Justiça.jfif">
+                    <h2>JUSTIÇA <br>
+                        ELEITORAL
+                    </h2>
+                </div>
+                <div class="teclado--linha">
+                    <div class="teclado--botao numeros">1</div>
+                    <div class="teclado--botao numeros">2</div>
+                    <div class="teclado--botao numeros">3</div>
+                    <div class="teclado--botao numeros">4</div>
+                    <div class="teclado--botao numeros">5</div>
+                    <div class="teclado--botao numeros">6</div>
+                    <div class="teclado--botao numeros">7</div>
+                    <div class="teclado--botao numeros">8</div>
+                    <div class="teclado--botao numeros">9</div>
+                    <div class="teclado--botao numerosZero">0</div>
+                    <div class="teclado--botao branco">BRANCO</div>
+                    <div class="teclado--botao corrige">CORRIGE</div>
+                    <div class="teclado--botao confirma">CONFIRMA</div>
+                </div>
+            </div>
+        </div>
+        <div class="lista-de-canditatos">
+            <h1>Lista de candidatos</h1>
+            <div class="candidatos-area">
+                <div class="Presidentes">
+                    <h2>Presidente:</h2>
+                    <p>01 - Jorge</p>
+                    <p>02 - Jerry</p>
+                    <p>03 - Phil</p>
+                </div>
+                <div class="Governadores">
+                    <h2>Governador:</h2>
+                    <p>10 - Stuart</p>
+                    <p>11 - Kevin</p>
+                    <p>12 - Mike</p>
+                </div>
+            </div>
+        </div>
+        <div class="tela-branco">
+            Para votar em <strong>BRANCO</strong><br>
+            o campo de voto deve estar<br>
+            vazio.<br>
+            Aperte CORRIGE para apagar campo de voto.<br>
+            <p>[FECHAR]</p>
+        </div>
+    </main>
+    <script src="assets/js/etapas.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
